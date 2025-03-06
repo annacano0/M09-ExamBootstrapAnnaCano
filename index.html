@@ -15,7 +15,7 @@
     crossorigin="anonymous"></script>
 
 <body class="bg-light text-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
         <a class="navbar-brand" href="./index.html">TechInfo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,15 +43,15 @@
             <h1 class="display-4 font-italic">InfoTech</h1>
             <p class="lead my-3">On podràs llegir totes les noticies d'actualitat web, articles d'inverstigació i
                 comentaris de professionals</p>
-            <button href="index.html#articles" type="button" class="btn btn-lg btn-primary">Llegeix els nostres articles
-            </button>
+            <a href="index.html#articles" type="button" class="btn btn-lg btn-primary">Llegeix els nostres articles
+            </a>
         </div>
     </header>
 
     <main class="grid-container p-3">
         <h2 id="articles" class="m-4 text-center">Els nostres articles</h2>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-2">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div class="col">
                 <div class="card ">
                     <img class="card-img-top rounded mt-2" src="./img/ia.png" alt="IA">
@@ -59,7 +59,11 @@
                         <h5 class="card-title">IA a la programació</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, rem! Soluta
                             aliquid reprehenderit doloremque, voluptatem amet ipsum expedita consequatur! Atque?</p>
-                        <a href="./catalogo.html#superheroes" class="btn btn-outline-primary w-100">Llegir més</a>
+                        <a href="#" class="btn btn-outline-primary w-100">Llegir més</a>
+                        <div class="progress mt-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +75,11 @@
                         <h5 class="card-title">Les millors praxis</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, rem! Soluta
                             aliquid reprehenderit doloremque, voluptatem amet ipsum expedita consequatur! Atque?</p>
-                        <a href="./catalogo.html#superheroes" class="btn btn-outline-primary w-100">Llegir més</a>
+                        <a href="#" class="btn btn-outline-primary w-100">Llegir més</a>
+                        <div class="progress mt-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,16 +92,20 @@
                         <h5 class="card-title">Codi net</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, rem! Soluta
                             aliquid reprehenderit doloremque, voluptatem amet ipsum expedita consequatur! Atque?</p>
-                        <a href="./catalogo.html#superheroes" class="btn btn-outline-primary w-100">Llegir més</a>
+                        <a href="#" class="btn btn-outline-primary w-100">Llegir més</a>
+                        <div class="progress mt-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <h2 id="contacte" class="m-5 text-center">Contactan's</h2>
+        <h2 id="contacte" class="mt-5 text-center">Contactan's</h2>
         <div class="row justify-content-around">
-            <form class="col-10  col-md-8 border border-light rounded p-4 ">
+            <form class="col-15 col-md-6 border border-light rounded p-4 ">
 
                 <div class="mb-3">
                     <label for="name" class="form-label">Nom</label>
@@ -160,7 +172,7 @@
         </div>
 
     </main>
-    <footer id="contacte" class="py-4 bg-primary text-white text-center">
+    <footer id="contacte" class="py-4 bg-dark text-white text-center">
         <p class="mb-1">© 2024 TecInfo . Tots els drets reservats.</p>
         <ul class="nav justify-content-center">
             <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-white">Inici</a></li>
